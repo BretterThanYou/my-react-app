@@ -16,7 +16,7 @@ const App = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://shbsct1963.execute-api.us-east-1.amazonaws.com", // Replace with your API Gateway URL
+        "https://shbsct1963.execute-api.us-east-1.amazonaws.com/dev/reactform", // Replace with your API Gateway URL
         formData,
         {
           headers: {
